@@ -1,0 +1,78 @@
+@import url(/widget/css/base/config.less);
+
+header {
+  height: 70px;
+  position: relative;
+  padding: 15px 30px;
+
+  .logo {
+    float: left;
+  }
+
+  aside {
+    float: right;
+    padding-top: 5px;
+  }
+
+  .no-login {
+    a {
+      display: block;
+      .btn(90px, 26px, 6px, @color);
+      &:first-child {
+        margin-bottom: 15px;
+      }
+    }
+  }
+
+  nav {
+    margin-right: 40px;
+    padding-top: 5px;
+    float: right;
+    .search {
+      float: right;
+      clear: both;
+      position: relative;
+      input {
+        padding: 0 30px 0 10px;
+        border: 1px solid @color;
+        height: 24px;
+        border-radius: 12px;
+        display: block;
+      }
+      .b {
+        position: absolute;
+        background: url(./img/top.png) no-repeat 2px 5px;
+        width: 24px;
+        height: 24px;
+        border: none;
+        right: 5px;
+        top: 0;
+        outline: none;
+        cursor: pointer;
+      }
+    }
+
+    ul {
+      clear: both;
+      padding-top: 16px;
+      li {
+        float: left;
+        margin: 0 3px;
+        a {
+          display: block;
+          padding: 0 12px;
+          height: 25px;
+          line-height: 25px;
+          white-space: nowrap;
+          color: @color;
+          border-radius: 4px;
+          &.current,&:hover {
+            color: #fff;
+            background: @color;
+          }
+        }
+      }
+    }
+  }
+}
+

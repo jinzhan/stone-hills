@@ -1,0 +1,25 @@
+@import url(/widget/css/base/config.less);
+
+.title-bar {
+  .flex();
+  span {
+    .flex();
+    width: 565px;
+    position: relative;
+    top: 11px;
+    border-top: 1px solid #ccc;
+    &:before, &:after {
+      position: relative;
+      top: -3px;
+      width: 5px;
+      height: 5px;
+      background: #ccc;
+      border-radius: 50%;
+      content: '';
+    }
+  }
+  font-size: 22px;
+  line-height: 24px;
+  color: @titleColor;
+  text-align: center;
+}

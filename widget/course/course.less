@@ -1,0 +1,90 @@
+@import url(/widget/css/base/config.less);
+
+.recom-course {
+  ul {
+    .flex();
+    li {
+      width: 390px;
+      height: 340px;
+      border: 1px solid @color;
+      background: @color;
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+      a {
+        color: #fff2b8;
+      }
+      span {
+        display: block;
+        text-align: center;
+      }
+      .img {
+        width: 390px;
+        height: 280px;
+        display: block;
+      }
+      .desc {
+        height: 65px;
+      }
+      .sub-info {
+        display: flex;
+        -webkit-display: flex;;
+        padding: 5px 10px 3px;
+        color: #fff2b8;
+        span {
+          display: block;
+        }
+        .type {
+          background: #ffe100;
+          color: #6a3906;
+          height: 18px;
+          line-height: 18px;
+          border-radius: 4px;
+          font-size: 12px;
+          width: 35px;
+          margin-top: 3px;
+        }
+        .rc-title {
+          color: #fff2b8;
+          margin-left: 10px;
+          font-size: 16px;
+        }
+        .play-num, .comment-num {
+          position: relative;
+          padding-left: 24px;
+          margin-left: 18px;
+        }
+
+        .play-num, .comment-num {
+          &:before {
+            width: 18px;
+            height: 14px;
+            background: url(./img/btn.png) no-repeat;
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 5px
+          }
+        }
+
+        .comment-num {
+          &:before {
+            background-position: -28px 0;
+          }
+        }
+      }
+
+      .bom-info {
+        margin-left: 55px;
+        font-size: 14px;
+        position: relative;
+      }
+
+      .fee {
+        font-size: 24px;
+        position: absolute;
+        right: 10px;
+        top: -5px;
+      }
+    }
+  }
+}

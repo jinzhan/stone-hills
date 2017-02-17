@@ -1,0 +1,121 @@
+.class-room-layout {
+  padding: 40px 0;
+}
+
+.classroom-main {
+  float: left;
+  width: 850px;
+  .ad-slider {
+    width: 850px;
+    height: 190px;
+    background: #6a3906;
+  }
+
+  h2 {
+    font-size: 18px;
+    font-weight: normal;
+  }
+
+  .tl-title {
+    margin-top: 20px;
+  }
+
+  .cul {
+    border: 1px solid #dcdcdc;
+    background: #eee;
+    height: 28px;
+    line-height: 28px;
+    li {
+      float: left;
+      padding: 0 10px;
+    }
+    a {
+      color: #000;
+    }
+    .cur {
+      color: #eb6100;
+    }
+    .sort-type-price {
+      padding-right: 20px;
+      position: relative;
+      span {
+        position: absolute;
+        border: 6px solid transparent;
+        right: 2px;
+      }
+      .up {
+        border-bottom-color: #aaa;
+        top: 1px;
+      }
+      .down {
+        border-top-color: #aaa;
+        top: 15px;
+      }
+    }
+  }
+
+  .course-type {
+    margin: 10px 0;
+  }
+
+  .main-sort-type {
+    float: left;
+  }
+
+  .sort-type-plus {
+    float: right;
+    li {
+      padding: 0 10px 0 24px;
+      position: relative;
+      span {
+        position: absolute;
+        width: 14px;
+        height: 14px;
+        border-radius: 50%;
+        border: 1px solid #ccc;
+        left: 0;
+        top: 7px;
+      }
+    }
+  }
+
+  .course-content {
+    ul {
+      //display: -webkit-flex;
+      //display: flex;
+      //justify-content: space-between;
+      //flex-wrap: wrap;
+      li {
+        float: left;
+        margin-right: 38px;
+        &:nth-of-type(3n){
+          margin-right: 0;
+        }
+      }
+    }
+    a {
+      display: block;
+      width: 258px;
+      margin-top: 35px;
+      span {
+        display: block;
+        &.img {
+          height: 166px;
+          border: 1px solid #ccc;
+          background: #efefef;
+        }
+      }
+      .join-num {
+        font-size: 12px;
+        color: #a0a0a0;
+      }
+      .fee {
+        font-size: 18px;
+        color: #ff7e00;
+      }
+      .free {
+        color: #80d610;
+      }
+    }
+  }
+}
