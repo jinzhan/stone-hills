@@ -1,5 +1,6 @@
 <div class="classroom-main">
-    <div class="ad-slider">
+
+    <div class="carousel-box">
 
     </div>
 
@@ -33,7 +34,7 @@
 
     <div class="course-content">
         <ul>
-            {%for $i=0;$i<11;$i++%}
+            {%for $i=0;$i<9;$i++%}
             <li>
                 <a href="/y/page/classroom/detail">
                     <span class="img"></span>

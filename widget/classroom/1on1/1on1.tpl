@@ -1,5 +1,15 @@
 <div class="box-1on1">
-    <h2 class="tl-title">1对1专题</h2>
+    <div class="header-1on1">
+        <h2 class="tl-title">1对1专题</h2>
+        <div class="tl-btn-container">
+            <a href="" class="tl-forward tl-btn">
+                <span class="tl-right-arrow"></span>
+            </a>
+            <a href="" class="tl-backward tl-btn">
+                <span class="tl-left-arrow"></span>
+            </a>
+        </div>
+    </div>
 
     <ul class="cul course-type">
         <li><a class="cur" href="#">全部课程</a></li>
