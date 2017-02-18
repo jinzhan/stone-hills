@@ -1,6 +1,6 @@
 <div class="box-1on1">
     <div class="header-1on1">
-        <h2 class="tl-title">1对1专题</h2>
+        {%widget name="y:widget/wgt/title/title.tpl" title="1对1专题"%}
         <div class="tl-btn-container">
             <a href="" class="tl-forward tl-btn">
                 <span class="tl-right-arrow"></span>

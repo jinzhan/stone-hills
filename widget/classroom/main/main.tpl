@@ -23,7 +23,15 @@
                 <span class="up"></span>
                 <span class="down"></span>
             </li>
-            <li><a href="#">价格区间</a></li>
+            <li class="price-range">
+                <a href="#">价格区间</a>
+                <ul class="price-content">
+                    <li>1000以下</li>
+                    <li>1000--2000</li>
+                    <li>2000--3000</li>
+                    <li>3000以上</li>
+                </ul>
+            </li>
         </ul>
 
         <ul class="sort-type-plus">

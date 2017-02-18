@@ -1,0 +1,172 @@
+/*@require pi-common:widget/css/jquery.ui.less*/
+
+.dialog-iframe .ui-dialog-content {
+	padding: 0;
+	overflow: hidden;
+}
+
+.dialog-iframe .ui-dialog-content-iframe {
+	width: 100%;
+	height: 100%;
+	border: 0;
+}
+
+/* PI: 弹窗阴影*/
+.ui-widget-overlay {
+  z-index: 15 !important;
+  opacity: .6 !important; // 新弹窗样式
+}
+
+/* PI: 新弹窗样式*/
+.ui-dialog {
+  // font-family: "PingFang SC", "Lantinghei SC", "Microsoft YaHei", arial, "\5b8b\4f53", sans-serif, tahoma !important;
+  border-radius: 0px;
+  // box-shadow: none !important;
+  border: 1px solid #dcdcdc !important;
+  // border: 0 !important;
+  .ui-dialog-titlebar,
+  .ui-dialog-content,
+  .ui-dialog-buttonpane {
+    border-radius: 0px;
+    background-color: #fff !important;
+  }
+  .ui-dialog-titlebar {
+    border-bottom: 0;
+    padding-left: 0 !important;
+  }
+  .ui-dialog-title {
+    text-align: center;
+    color: #000 !important;
+    width: 100% !important;
+    // margin-top: 10px;
+  }
+  .ui-dialog-titlebar-close {
+    width: 39px !important;
+    height: 39px !important;
+    right: 25px !important;
+    top: 12px !important;
+    background: url(./img/i-dialog-close.png?__sprite) no-repeat !important;
+    background-size: cover !important;
+    &:hover {
+      background: url(./img/i-dialog-close.png?__sprite) no-repeat !important;
+      background-size: cover !important;
+    }
+  }
+}
+
+/* PI: Dialog.alert 按钮样式 */
+.pi-dialog-alert {
+  // border-radius: 3px;
+  width: 407px !important; // from blp
+  height: 240px !important; // from blp
+
+  .ui-dialog-title {
+    display: none;
+  }
+
+  .ui-dialog-content {
+    text-align: center;
+    font-size: 18px; // from blp
+    padding: 32px 20px 18px !important;
+    min-height: 50px !important; // from blp
+  }
+
+  .dialog-btn {
+    width: 144px;
+    height: 33px;
+    line-height: 33px;
+    border-radius: 3px;
+    padding: 0;
+  }
+
+  .dialog-btn-1 {
+    background: #4c9e82;
+    border: 1px solid #4c9e82;
+    margin-right: 0 !important;
+    color: #fff !important;
+    &:hover {
+      border: 1px solid #69b49a;
+      background: #69b49a;
+      color: #fff !important;
+    }
+  }
+
+  .ui-dialog-buttonpane {
+    background: none !important;
+  }
+}
+
+/* PI: Dialog.confirm按钮样式 */
+.pi-dialog-confirm {
+  // border-radius: 3px;
+  width: 407px !important; // from blp
+  min-height: 240px !important; // from blp
+  .ui-dialog-title {
+    // display: none;
+    height: 80px !important; // from blp
+    line-height: 110px !important;
+  }
+
+  .ui-dialog-titlebar {
+    background: none !important;
+    height: 80px !important; // from blp
+    &.hide-title {
+      height: 50px !important; // from blp
+    }
+  }
+
+  .ui-widget-content {
+    text-align: center;
+    // padding: 18px 0 !important;
+    font-size: 14px; // from blp
+    // padding: 32px 20px 18px !important;
+    padding: 10px 20px 18px !important; // from blp
+    min-height: 50px !important; // from blp
+    color: #7f7f7f;
+  }
+
+  .ui-widget-header {
+    background: none !important;
+    border: none !important;
+  }
+  .ui-dialog-buttonpane {
+    min-height: 50px;
+    margin-top: 10px;
+    padding: 10px 20px 18px !important; // from blp
+  }
+
+  .dialog-btn {
+    // width: 80px;
+    // height: 30px;
+    width: 112px;
+    height: 33px;
+    line-height: 33px;
+    border-radius: 3px;
+    padding: 0;
+  }
+
+  .dialog-btn-2 {
+    background: #4c9e82;
+    border: 1px solid #4c9e82;
+    color: #fff !important;
+    margin-right: 0 !important; // from blp
+    &:hover {
+      border: 1px solid #69b49a;
+      background: #69b49a;
+      color: #fff !important;
+    }
+  }
+
+  .dialog-btn-1 {
+    background: #f6f9fa;
+    border: 1px solid #c8d6df;
+    color: #585858 !important;
+    margin-right: 18px !important; // from blp
+    &:hover {
+      border: 1px solid #c8d6df;
+      background: #e5eff2;
+      color: #585858 !important;
+    }
+  }
+
+}

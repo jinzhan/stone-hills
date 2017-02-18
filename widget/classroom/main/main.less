@@ -54,7 +54,29 @@
       }
     }
   }
-
+  .sort-type {
+    position: relative;
+    .price-range:hover {
+      .price-content {
+        display: block;
+      }
+    }
+    .price-content {
+      position: absolute;
+      top: 28px;
+      left: 220px;
+      background-color: #fff;
+      border: 1px solid #ccc;
+      display: none;
+      li {
+        float: none;
+        &:hover {
+          cursor: pointer;
+          background-color: #eee;
+        }
+      }
+    }
+  }
   .course-type {
     margin: 10px 0;
   }

@@ -1,5 +1,3 @@
-<div class="title-bar">
-    <span></span>
-    {%$title%}
-    <span></span>
-</div>
+<h2 class="title-bar">
+    <span>{%$title%}</span>
+</h2>
