@@ -24,6 +24,100 @@ header {
     }
   }
 
+  .has-logined {
+    margin-right: 15px;
+    .head-photo{
+      padding: 16px 13px;
+      color: #999;
+      border: 1px solid #6a3906;
+      border-radius: 5px;
+      position: relative;
+      top: -13px;
+      margin-right: 10px;
+    }
+    .auth-bar{
+      display: inline-block;
+      .auth-name {
+        font-size: 14px;
+        color: #999;
+      }
+      .btn-bar {
+        border: 1px solid #6a3906;
+        border-radius: 5px;
+        height: 22px;
+        .left-con {
+          border-right: 1px solid #6a3906;
+          margin-left: 8px;
+          padding: 4px 5px 2px 0;
+        }
+        .right-con {
+          padding-left: 5px;
+        }
+        span {
+          img {
+            height: 15px;
+            width: 15px;
+            position: relative;
+            top: 1px;
+          }
+         .arrow-btn {
+           height: 8px;
+           width: 8px;
+           position: relative;
+           top: -1px;
+           left: -2px;
+         }
+        }
+      }
+    }
+    .nav-list {
+      margin-top: 15px;
+      .arrow-up {
+        width: 0;
+        height: 0;
+        border-left: 10px solid transparent; /* 左边框的宽 */
+        border-right: 10px solid transparent; /* 右边框的宽 */
+        border-bottom: 10px solid #eee; /* 下边框的长度|高,以及背景色 */
+        font-size: 0;
+        line-height: 0;
+        float: right;
+        position: relative;
+        top: -10px;
+        left: -10px;
+      }
+      ul {
+        text-align: center;
+        background-color: #fff;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        box-shadow: 2px 2px 2px 2px;
+        font-size: 14px;
+        color: #999;
+        li:first-child {
+          border-bottom: solid 1px #eee;
+          padding-left: 16px;
+        }
+        li:last-child {
+          border-top: solid 1px #eee;
+        }
+        li {
+          padding-top: 2px;
+          padding-bottom: 2px;
+          &:hover {
+            background-color: #eee;
+          }
+          img {
+            height: 16px;
+            width: 16px;
+            position: relative;
+            top: 3px;
+            margin-right: 4px;
+          }
+        }
+      }
+    }
+  }
+
   nav {
     margin-right: 40px;
     padding-top: 5px;
@@ -75,4 +169,5 @@ header {
     }
   }
 }
+
 
