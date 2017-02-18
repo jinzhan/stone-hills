@@ -41,7 +41,7 @@
     </ul>
 
     <div class="footer-bottom">
-        <p>首页 <span>|</span> 课程 <span>|</span> 关于优伴 <span>|</span> 免费注册 <span>|</span> 学生登录</p>
+        <p><a href="#">首页</a> <span>|</span> <a href="#">课程</a> <span>|</span>  <a href="#">关于优伴</a> <span>|</span> <a href="" >免费注册</a> <span>|</span> <a href="#">学生登录</a></p>
         ©2016 优伴网络 版权所有
     </div>
 </footer>

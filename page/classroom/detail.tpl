@@ -3,6 +3,7 @@
 {%head%}
 <meta charset="UTF-8">
 <title>优伴网站</title>
+{%require name="y:widget/css/button.less"%}
 {%require name="y:widget/css/base/base.less"%}
 {%require name="y:widget/css/home.less"%}
 {%/head%}
@@ -14,8 +15,8 @@
 
 <div class="class-detail-layout">
     {%widget name="y:widget/classroom/detail-header/detail-header.tpl"%}
-    {%widget name="y:widget/classroom/aside/aside.tpl"%}
-    {%widget name="y:widget/classroom/1on1/1on1.tpl"%}
+    {%widget name="y:widget/classroom/class-intro/class-intro.tpl"%}
+    {%widget name="y:widget/classroom/class-evaluate/class-evaluate.tpl"%}
 </div>
 
 {%*页面底部*%}

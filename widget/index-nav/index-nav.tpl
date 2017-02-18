@@ -1,4 +1,4 @@
-<div class="index-nav cf lo-home">
+<div class="index-nav lo-home">
     <div class="in-item in-item-live">
         <p>名校课程，名师指导，最新最牛的教程都在这里。学习的 差距没有那么大，选对课程就是选对了人生！</p>
         <a href="#">查看详情</a>
